@@ -1,0 +1,1852 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tags</title>
+    <style>
+      body{
+        text-align: center;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAAAAADaLSBnAAAAZklEQVR4AaXKMQqEMBhE4bewq5jKxvsf0E4wEmMhmGKaWYj8A68Zvs/GyoLZ86u30OOSrx5YjgoGCouN6ct/KDb9wEDhM4u1WVh3MQsVQ2pM83AWQxBASAUhHgchHgchHgehx93wBrlnhisLPcY5AAAAAElFTkSuQmCC)
+        repeat;
+      }
+      header, footer{
+        font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+      }
+      header{
+        font-size:50px;
+      }
+      header h1{
+        margin:0;
+      }
+      main{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .row{
+        display: table-cell;
+        padding: 0 3px;
+      }
+      .button{
+        display: block;
+        width: 115px;
+        padding: 5px;
+        border-style: solid;
+        border-width: 1px;
+      }
+      details div.button{
+        border-top-width: 0;
+        border-left-width: 7px;
+        width:109px;
+      }
+      details, .button:not(details .button){
+        margin: 5px 0;
+        border-radius: 5px;
+      }
+      details summary.button{
+        border-radius: 5px 5px 0 0;
+      }
+      .dropdown div:last-child {
+        border-radius: 0 0 5px 5px;
+      }
+      p{
+        max-width:115px;
+      }
+      .firstgroup .button{
+        background: #7eff95;
+        color: #275730;
+      }
+      .secondgroup .button{
+        background: #7ed3ff;
+        color: #2d4f60;
+      }
+      .thirdgroup .button{
+        background: #ffef7e;
+        color: #5a542c;
+      }
+      .fourthgroup .button{
+        background: #ffe566;
+        color: #5a542c;
+      }
+      .fifthgroup .button{
+        background: #ebc1ff;
+        color: #45374c;
+      }
+      .sixthgroup .button{
+        background: #ffb2b2;
+        color: #5b3e3e;
+      }
+      .seventhgroup .button{
+        background: #a1fff6;
+        color: #3b5c59;
+      }
+      .eighthgroup .button{
+        background: #00ca35;
+        color: #005d18;
+      }
+      .ninthgroup .button{
+        background: white;
+        border-color: black;
+      }
+      .tenthgroup .button{
+        background: white;
+        border-color: black;
+      }
+      .eleventhgroup .button{
+        background: #ffbf8c;
+        color: #654d39;
+      }
+      .twelfthgroup .button{
+        background: #c3d2ff;
+        color: #404452;
+      }
+      .thirteenthgroup .button{
+        background: black;
+        color: white;
+        border-color: black;
+      }
+      .fourteenthgroup .button{
+        background: #ffaae4;
+        color: #4c3344;
+      }
+      .fifteenthgroup .button{
+        background: #006a90;
+        color: white;
+        border-color: #003a4f;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>HTML Cheat Sheet</h1>
+    </header>
+    <main>
+      <div class="row firstgroup">
+          <div id="1">
+            <div class="button">
+              <code>&lt;!--...--&gt;</code>
+            </div>
+          </div>
+          <div id="2">
+            <div class="button">
+              <code>&lt;!DOCTYPE&gt;</code>
+            </div>
+          </div>
+          <details id="3">
+            <summary class="button">
+              <code>&lt;a&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute1">
+              <div class="button">
+                 download
+              </div>
+              <div class="button">
+                 href
+              </div>
+              <div class="button">
+                 hreflang
+              </div>
+              <div class="button">
+                 media
+              </div>
+              <div class="button">
+                 ping
+              </div>
+              <div class="button">
+                 referrerpolicy
+              </div>
+              <div class="button">
+                 rel
+              </div>
+              <div class="button">
+                 target
+              </div>
+              <div class="button">
+                 type
+              </div>
+            </div>
+          </details>
+          <div id="4">
+            <div class="button">
+              <code>&lt;article&gt;</code>
+            </div>
+          </div>
+          <div id="5">
+            <div class="button">
+              <code>&lt;aside&gt;</code>
+            </div>
+          </div>
+          <div id="6">
+            <div class="button">
+              <code>&lt;bdi&gt;</code>
+            </div>
+          </div>
+          <div id="7">
+            <div class="button">
+              <code>&lt;body&gt;</code>
+            </div>
+          </div>
+          <details id="8">
+            <summary class="button">
+              <code>&lt;data&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute2">
+              <div class="button">
+                 value
+              </div>
+            </div>
+          </details>
+          <details id="9">
+            <summary class="button">
+              <code>&lt;details&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute3">
+              <div class="button">
+                 open
+              </div>
+            </div>
+          </details>
+          <details id="10">
+            <summary class="button">
+              <code>&lt;dialog&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute4">
+              <div class="button">
+                 open
+              </div>
+            </div>
+          </details>
+          <div id="11">
+            <div class="button">
+              <code>&lt;div&gt;</code>
+            </div>
+          </div>
+          <div id="12">
+            <div class="button">
+              <code>&lt;footer&gt;</code>
+            </div>
+          </div>
+          <div id="13">
+            <div class="button">
+              <code>&lt;head&gt;</code>
+            </div>
+          </div>
+          <div id="14">
+            <div class="button">
+              <code>&lt;header&gt;</code>
+            </div>
+          </div>
+          <details id="15">
+            <summary class="button">
+              <code>&lt;html&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute5">
+              <div class="button">
+                 xmlns
+              </div>
+            </div>
+          </details>
+          <div id="16">
+            <div class="button">
+              <code>&lt;main&gt;</code>
+            </div>
+          </div>
+          <div id="17">
+            <div class="button">
+              <code>&lt;nav&gt;</code>
+            </div>
+          </div>
+          <div id="18">
+            <div class="button">
+              <code>&lt;section&gt;</code>
+            </div>
+          </div>
+          <div id="19">
+            <div class="button">
+              <code>&lt;summary&gt;</code>
+            </div>
+          </div>
+      </div>
+      <div class="row secondgroup">
+          <p>Head Elements</p>
+          <div id="20">
+            <div class="button">
+              <code>&lt;title&gt;</code>
+            </div>
+          </div>
+          <details id="21">
+            <summary class="button">
+              <code>&lt;style&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute6">
+              <div class="button">
+                 media
+              </div>
+              <div class="button">
+                 type
+              </div>
+            </div>
+          </details>
+          <details id="22">
+            <summary class="button">
+              <code>&lt;meta/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute7">
+              <div class="button">
+                 charset
+              </div>
+              <div class="button">
+                 content
+              </div>
+              <div class="button">
+                 http_equiv
+              </div>
+              <div class="button">
+                 name
+              </div>
+            </div>
+          </details>
+          <details id="23">
+            <summary class="button">
+              <code>&lt;link/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute8">
+              <div class="button">
+                 crossorigin
+              </div>
+              <div class="button">
+                 href
+              </div>
+              <div class="button">
+                 hreflang
+              </div>
+              <div class="button">
+                 media
+              </div>
+              <div class="button">
+                 referrerpolicy
+              </div>
+              <div class="button">
+                 rel
+              </div>
+              <div class="button">
+                 sizes
+              </div>
+              <div class="button">
+                 title
+              </div>
+              <div class="button">
+                 type
+              </div>
+            </div>
+          </details>
+          <details id="24">
+            <summary class="button">
+              <code>&lt;script&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute9">
+              <div class="button">
+                 async
+              </div>
+              <div class="button">
+                 crossorigin
+              </div>
+              <div class="button">
+                 defer
+              </div>
+              <div class="button">
+                 integrity
+              </div>
+              <div class="button">
+                 nomodule
+              </div>
+              <div class="button">
+                 referrerpolicy
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 type
+              </div>
+            </div>
+          </details>
+          <details id="25">
+            <summary class="button">
+              <code>&lt;base/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute10">
+              <div class="button">
+                 href
+              </div>
+              <div class="button">
+                 target
+              </div>
+            </div>
+          </details>
+          <div id="26">
+            <div class="button">
+              <code>&lt;h1&gt; - &lt;h6&gt;</code>
+            </div>
+          </div>
+          <div id="27">
+            <div class="button">
+              <code>&lt;p&gt;</code>
+            </div>
+          </div>
+          <div id="28">
+            <div class="button">
+              <code>&lt;br/&gt;</code>
+            </div>
+          </div>
+          <div id="29">
+            <div class="button">
+              <code>&lt;hr/&gt;</code>
+            </div>
+          </div>
+          <div id="30">
+            <div class="button">
+              <code>&lt;pre&gt;</code>
+            </div>
+          </div>
+          <details id="31">
+            <summary class="button">
+              <code>&lt;blockquote&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute11">
+              <div class="button">
+                 cite
+              </div>
+            </div>
+          </details>
+          <div id="32">
+            <div class="button">
+              <code>&lt;address&gt;</code>
+            </div>
+          </div>
+      </div>
+      <div class="row thirdgroup">
+          <p>Text Surrounding Elements</p>
+          <div id="33">
+            <div class="button">
+              <code>&lt;span&gt;</code>
+            </div>
+          </div>
+          <div id="34">
+            <div class="button">
+              <code>&lt;b&gt;</code>
+            </div>
+          </div>
+          <div id="35">
+            <div class="button">
+              <code>&lt;strong&gt;</code>
+            </div>
+          </div>
+          <div id="36">
+            <div class="button">
+              <code>&lt;em&gt;</code>
+            </div>
+          </div>
+          <div id="37">
+            <div class="button">
+              <code>&lt;i&gt;</code>
+            </div>
+          </div>
+          <div id="38">
+            <div class="button">
+              <code>&lt;dfn&gt;</code>
+            </div>
+          </div>
+          <div id="39">
+            <div class="button">
+              <code>&lt;var&gt;</code>
+            </div>
+          </div>
+          <div id="40">
+            <div class="button">
+              <code>&lt;small&gt;</code>
+            </div>
+          </div>
+          <div id="41">
+            <div class="button">
+              <code>&lt;sup&gt;</code>
+            </div>
+          </div>
+          <div id="42">
+            <div class="button">
+              <code>&lt;sub&gt;</code>
+            </div>
+          </div>
+          <div id="43">
+            <div class="button">
+              <code>&lt;s&gt;</code>
+            </div>
+          </div>
+          <details id="44">
+            <summary class="button">
+              <code>&lt;del&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute12">
+              <div class="button">
+                 cite
+              </div>
+              <div class="button">
+                 datetime
+              </div>
+            </div>
+          </details>
+          <details id="45">
+            <summary class="button">
+              <code>&lt;ins&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute13">
+              <div class="button">
+                 cite
+              </div>
+              <div class="button">
+                 datetime
+              </div>
+            </div>
+          </details>
+          <div id="46">
+            <div class="button">
+              <code>&lt;u&gt;</code>
+            </div>
+          </div>
+          <div id="47">
+            <div class="button">
+              <code>&lt;mark&gt;</code>
+            </div>
+          </div>
+          <details id="48">
+            <summary class="button">
+              <code>&lt;q&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute14">
+              <div class="button">
+                 cite
+              </div>
+            </div>
+          </details>
+          <div id="49">
+            <div class="button">
+              <code>&lt;cite&gt;</code>
+            </div>
+          </div>
+          <div id="50">
+            <div class="button">
+              <code>&lt;abbr&gt;</code>
+            </div>
+          </div>
+          <details id="51">
+            <summary class="button">
+              <code>&lt;bdo&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute14">
+              <div class="button">
+                 dir
+              </div>
+            </div>
+          </details>
+          <div id="52">
+            <div class="button">
+              <code>&lt;code&gt;</code>
+            </div>
+          </div>
+          <div id="53">
+            <div class="button">
+              <code>&lt;kbd&gt;</code>
+            </div>
+          </div>
+          <div id="54">
+            <div class="button">
+              <code>&lt;samp&gt;</code>
+            </div>
+          </div>
+          <details id="55">
+            <summary class="button">
+              <code>&lt;time&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute15">
+              <div class="button">
+                 datetime
+              </div>
+            </div>
+          </details>
+      </div>
+      <div class="row">
+        <div class="second fourthgroup">
+          <p>Text Surrounding Elements (Ruby Annotation)</p>
+          <div id="56">
+            <div class="button">
+              <code>&lt;ruby&gt;</code>
+            </div>
+          </div>
+          <div id="57">
+            <div class="button">
+              <code>&lt;rp&gt;</code>
+            </div>
+          </div>
+          <div id="58">
+            <div class="button">
+              <code>&lt;rt&gt;</code>
+            </div>
+          </div>
+        </div>
+        <div class="second fifthgroup">
+          <p>Table</p>
+          <div id="59">
+            <div class="button">
+              <code>&lt;table&gt;</code>
+            </div>
+          </div>
+          <details id="60">
+            <summary class="button">
+              <code>&lt;th&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute16">
+              <div class="button">
+                 abbr
+              </div>
+              <div class="button">
+                 colspan
+              </div>
+              <div class="button">
+                 headers
+              </div>
+              <div class="button">
+                 rowspan
+              </div>
+              <div class="button">
+                 scope
+              </div>
+            </div>
+          </details>
+          <div id="61">
+            <div class="button">
+              <code>&lt;tr&gt;</code>
+            </div>
+          </div>
+          <details id="62">
+            <summary class="button">
+              <code>&lt;td&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute17">
+              <div class="button">
+                 colspan
+              </div>
+              <div class="button">
+                 headers
+              </div>
+              <div class="button">
+                 rowspan
+              </div>
+            </div>
+          </details>
+          <div id="63">
+            <div class="button">
+              <code>&lt;caption&gt;</code>
+            </div>
+          </div>
+          <details id="64">
+            <summary class="button">
+              <code>&lt;colgroup&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute18">
+              <div class="button">
+                 span
+              </div>
+            </div>
+          </details>
+          <details id="65">
+            <summary class="button">
+              <code>&lt;col&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute19">
+              <div class="button">
+                 span
+              </div>
+            </div>
+          </details>
+          <div id="66">
+            <div class="button">
+              <code>&lt;thead&gt;</code>
+            </div>
+          </div>
+          <div id="67">
+            <div class="button">
+              <code>&lt;tbody&gt;</code>
+            </div>
+          </div>
+          <div id="68">
+            <div class="button">
+              <code>&lt;tfoot&gt;</code>
+            </div>
+          </div>
+        </div>
+        <div class="second sixthgroup">
+          <p>List</p>
+          <div id="69">
+            <div class="button">
+              <code>&lt;ul&gt;</code>
+            </div>
+          </div>
+          <details id="70">
+            <summary class="button">
+              <code>&lt;ol&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute20">
+              <div class="button">
+                 reversed
+              </div>
+              <div class="button">
+                 start
+              </div>
+              <div class="button">
+                 type
+              </div>
+            </div>
+          </details>
+          <details id="71">
+            <summary class="button">
+              <code>&lt;li&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute21">
+              <div class="button">
+                 value
+              </div>
+            </div>
+          </details>
+          <div id="72">
+            <div class="button">
+              <code>&lt;dl&gt;</code>
+            </div>
+          </div>
+          <div id="73">
+            <div class="button">
+              <code>&lt;dt&gt;</code>
+            </div>
+          </div>
+          <div id="74">
+            <div class="button">
+              <code>&lt;dd&gt;</code>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="second seventhgroup">
+          <p>Form</p>
+          <details id="75">
+            <summary class="button">
+              <code>&lt;input/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute22">
+              <div class="button">
+                 accept
+              </div>
+              <div class="button">
+                 alt
+              </div>
+              <div class="button">
+                 autocomplete
+              </div>
+              <div class="button">
+                 autofocus
+              </div>
+              <div class="button">
+                 checked
+              </div>
+              <div class="button">
+                 dirname
+              </div>
+              <div class="button">
+                 disabled
+              </div>
+              <div class="button">
+                 form
+              </div>
+              <div class="button">
+                 formaction
+              </div>
+              <div class="button">
+                 formenctype
+              </div>
+              <div class="button">
+                 formmethod
+              </div>
+              <div class="button">
+                 formnovalidate
+              </div>
+              <div class="button">
+                 formtarget
+              </div>
+              <div class="button">
+                 height
+              </div>
+              <div class="button">
+                 list
+              </div>
+              <div class="button">
+                 max
+              </div>
+              <div class="button">
+                 maxlength
+              </div>
+              <div class="button">
+                 min
+              </div>
+              <div class="button">
+                 minlength
+              </div>
+              <div class="button">
+                 multiple
+              </div>
+              <div class="button">
+                 name
+              </div>
+              <div class="button">
+                 pattern
+              </div>
+              <div class="button">
+                 placeholder
+              </div>
+              <div class="button">
+                 readonly
+              </div>
+              <div class="button">
+                 required
+              </div>
+              <div class="button">
+                 size
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 step
+              </div>
+              <div class="button">
+                 type
+              </div>
+              <div class="button">
+                 value
+              </div>
+              <div class="button">
+                 width
+              </div>
+            </div>
+          </details>
+          <details id="76">
+            <summary class="button">
+              <code>&lt;form&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute23">
+              <div class="button">
+                 accept-charset
+              </div>
+              <div class="button">
+                 action
+              </div>
+              <div class="button">
+                 autocomplete
+              </div>
+              <div class="button">
+                 enctype
+              </div>
+              <div class="button">
+                 method
+              </div>
+              <div class="button">
+                 name
+              </div>
+              <div class="button">
+                 novalidate
+              </div>
+              <div class="button">
+                 rel
+              </div>
+              <div class="button">
+                 target
+              </div>
+            </div>
+          </details>
+          <details id="77">
+            <summary class="button">
+              <code>&lt;label&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute24">
+              <div class="button">
+                 for
+              </div>
+              <div class="button">
+                 form
+              </div>
+            </div>
+          </details>
+          <details id="78">
+            <summary class="button">
+              <code>&lt;select&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute25">
+              <div class="button">
+                 autofocus
+              </div>
+              <div class="button">
+                 disabled
+              </div>
+              <div class="button">
+                 form
+              </div>
+              <div class="button">
+                 multiple
+              </div>
+              <div class="button">
+                 name
+              </div>
+              <div class="button">
+                 required
+              </div>
+              <div class="button">
+                 size
+              </div>
+            </div>
+          </details>
+          <details id="79">
+            <summary class="button">
+              <code>&lt;textarea&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute26">
+              <div class="button">
+                 autocomplete
+              </div>
+              <div class="button">
+                 autofocus
+              </div>
+              <div class="button">
+                 cols
+              </div>
+              <div class="button">
+                 dirname
+              </div>
+              <div class="button">
+                 disabled
+              </div>
+              <div class="button">
+                 form
+              </div>
+              <div class="button">
+                 maxlength
+              </div>
+              <div class="button">
+                 minlength
+              </div>
+              <div class="button">
+                 name
+              </div>
+              <div class="button">
+                 placeholder
+              </div>
+              <div class="button">
+                 readonly
+              </div>
+              <div class="button">
+                 required
+              </div>
+              <div class="button">
+                 rows
+              </div>
+              <div class="button">
+                 spellcheck
+              </div>
+              <div class="button">
+                 wrap
+              </div>
+            </div>
+          </details>
+          <details id="80">
+            <summary class="button">
+              <code>&lt;button&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute27">
+              <div class="button">
+                 autofocus
+              </div>
+              <div class="button">
+                 disabled
+              </div>
+              <div class="button">
+                 form
+              </div>
+              <div class="button">
+                 formaction
+              </div>
+              <div class="button">
+                 formenctype
+              </div>
+              <div class="button">
+                 formmethod
+              </div>
+              <div class="button">
+                 formnovalidate
+              </div>
+              <div class="button">
+                 formtarget
+              </div>
+              <div class="button">
+                 name
+              </div>
+              <div class="button">
+                 type
+              </div>
+              <div class="button">
+                 value
+              </div>
+            </div>
+          </details>
+          <details id="81">
+            <summary class="button">
+              <code>&lt;fieldset&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute28">
+              <div class="button">
+                 disabled
+              </div>
+              <div class="button">
+                 form
+              </div>
+              <div class="button">
+                 name
+              </div>
+            </div>
+          </details>
+          <div id="82">
+            <div class="button">
+              <code>&lt;legend&gt;</code>
+            </div>
+          </div>
+          <div id="83">
+            <div class="button">
+              <code>&lt;datalist&gt;</code>
+            </div>
+          </div>
+          <details id="84">
+            <summary class="button">
+              <code>&lt;output&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute29">
+              <div class="button">
+                 for
+              </div>
+              <div class="button">
+                 form
+              </div>
+              <div class="button">
+                 name
+              </div>
+            </div>
+          </details>
+          <details id="85">
+            <summary class="button">
+              <code>&lt;option&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute30">
+              <div class="button">
+                 disabled
+              </div>
+              <div class="button">
+                 label
+              </div>
+              <div class="button">
+                 selected
+              </div>
+              <div class="button">
+                 value
+              </div>
+            </div>
+          </details>
+          <details id="86">
+            <summary class="button">
+              <code>&lt;optgroup&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute31">
+              <div class="button">
+                 disabled
+              </div>
+              <div class="button">
+                 label
+              </div>
+            </div>
+          </details>
+        </div>
+        <div class="second eighthgroup">
+          <p>Meter & Progress</p>
+          <details id="87">
+            <summary class="button">
+              <code>&lt;meter&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute32">
+              <div class="button">
+                 form
+              </div>
+              <div class="button">
+                 high
+              </div>
+              <div class="button">
+                 low
+              </div>
+              <div class="button">
+                 max
+              </div>
+              <div class="button">
+                 min
+              </div>
+              <div class="button">
+                 optimum
+              </div>
+              <div class="button">
+                 value
+              </div>
+            </div>
+          </details>
+          <details id="88">
+            <summary class="button">
+              <code>&lt;progress&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute33">
+              <div class="button">
+                 max
+              </div>
+              <div class="button">
+                 value
+              </div>
+            </div>
+          </details>
+          <details id="89">
+            <summary class="button">
+              <code>&lt;label&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute34">
+              <div class="button">
+                 for
+              </div>
+              <div class="button">
+                 form
+              </div>
+            </div>
+          </details>
+        </div>
+        <div class="second ninthgroup">
+          <details id="90">
+            <summary class="button">
+              <code>&lt;canvas&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute35">
+              <div class="button">
+                 height
+              </div>
+              <div class="button">
+                 width
+              </div>
+            </div>
+          </details>
+        </div>
+        <div class="second tenthgroup">
+          <div id="91">
+            <div class="button">
+              <code>&lt;svg&gt;</code>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="second eleventhgroup">
+          <p>Media</p>
+          <div id="92">
+            <div class="button">
+              <code>&lt;figcaption&gt;</code>
+            </div>
+          </div>
+          <div id="93">
+            <div class="button">
+              <code>&lt;figure&gt;</code>
+            </div>
+          </div>
+          <div id="94">
+            <div class="button">
+              <code>&lt;picture&gt;</code>
+            </div>
+          </div>
+          <div id="92">
+            <div class="button">
+              <code>&lt;figcaption&gt;</code>
+            </div>
+          </div>
+          <details id="93">
+            <summary class="button">
+              <code>&lt;video&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute36">
+              <div class="button">
+                 autoplay
+              </div>
+              <div class="button">
+                 controls
+              </div>
+              <div class="button">
+                 height
+              </div>
+              <div class="button">
+                 loop
+              </div>
+              <div class="button">
+                 muted
+              </div>
+              <div class="button">
+                 poster
+              </div>
+              <div class="button">
+                 preload
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 width
+              </div>
+            </div>
+          </details>
+          <details id="94">
+            <summary class="button">
+              <code>&lt;audio&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute37">
+              <div class="button">
+                 autoplay
+              </div>
+              <div class="button">
+                 controls
+              </div>
+              <div class="button">
+                 loop
+              </div>
+              <div class="button">
+                 muted
+              </div>
+              <div class="button">
+                 preload
+              </div>
+              <div class="button">
+                 src
+              </div>
+            </div>
+          </details>
+          <details id="95">
+            <summary class="button">
+              <code>&lt;source&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute38">
+              <div class="button">
+                 media
+              </div>
+              <div class="button">
+                 sizes
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 srcset
+              </div>
+              <div class="button">
+                 type
+              </div>
+            </div>
+          </details>
+          <details id="96">
+            <summary class="button">
+              <code>&lt;object&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute39">
+              <div class="button">
+                 data
+              </div>
+              <div class="button">
+                 form
+              </div>
+              <div class="button">
+                 height
+              </div>
+              <div class="button">
+                 name
+              </div>
+              <div class="button">
+                 type
+              </div>
+              <div class="button">
+                 usemap
+              </div>
+              <div class="button">
+                 width
+              </div>
+            </div>
+          </details>
+          <details id="97">
+            <summary class="button">
+              <code>&lt;embed&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute40">
+              <div class="button">
+                 height
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 type
+              </div>
+              <div class="button">
+                 width
+              </div>
+            </div>
+          </details>
+          <details id="98">
+            <summary class="button">
+              <code>&lt;iframe&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute41">
+              <div class="button">
+                 allow
+              </div>
+              <div class="button">
+                 allowfullscreen
+              </div>
+              <div class="button">
+                 allowpaymentrequest
+              </div>
+              <div class="button">
+                 height
+              </div>
+              <div class="button">
+                 name
+              </div>
+              <div class="button">
+                 referrerpolicy
+              </div>
+              <div class="button">
+                 sandbox
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 srcdoc
+              </div>
+              <div class="button">
+                 width
+              </div>
+            </div>
+          </details>
+        </div>
+        <div class="second twelfthgroup">
+          <p>Mapping Images</p>
+          <details id="99">
+            <summary class="button">
+              <code>&lt;img/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute42">
+              <div class="button">
+                 alt
+              </div>
+              <div class="button">
+                 crossorigin
+              </div>
+              <div class="button">
+                 height
+              </div>
+              <div class="button">
+                 ismap
+              </div>
+              <div class="button">
+                 loading
+              </div>
+              <div class="button">
+                 longdesc
+              </div>
+              <div class="button">
+                 referrerpolicy
+              </div>
+              <div class="button">
+                 sizes
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 srcset
+              </div>
+              <div class="button">
+                 usemap
+              </div>
+              <div class="button">
+                 width
+              </div>
+            </div>
+          </details>
+          <details id="100">
+            <summary class="button">
+              <code>&lt;map&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute43">
+              <div class="button">
+                 name
+              </div>
+            </div>
+          </details>
+          <details id="101">
+            <summary class="button">
+              <code>&lt;area/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute44">
+              <div class="button">
+                 alt
+              </div>
+              <div class="button">
+                 coords
+              </div>
+              <div class="button">
+                 download
+              </div>
+              <div class="button">
+                 href
+              </div>
+              <div class="button">
+                 hreflang
+              </div>
+              <div class="button">
+                 media
+              </div>
+              <div class="button">
+                 referrerpolicy
+              </div>
+              <div class="button">
+                 rel
+              </div>
+              <div class="button">
+                 shape
+              </div>
+              <div class="button">
+                 target
+              </div>
+              <div class="button">
+                 type
+              </div>
+            </div>
+          </details>
+        </div>
+        <div class="second thirteenthgroup">
+          <div id="102">
+            <div class="button">
+              <code>&lt;template&gt;</code>
+            </div>
+          </div>
+        </div>
+        <div class="second fourteenthgroup">
+          <p>JavaScript</p>
+          <details id="103">
+            <summary class="button">
+              <code>&lt;script&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute45">
+              <div class="button">
+                 async
+              </div>
+              <div class="button">
+                 crossorigin
+              </div>
+              <div class="button">
+                 defer
+              </div>
+              <div class="button">
+                 integrity
+              </div>
+              <div class="button">
+                 nomodule
+              </div>
+              <div class="button">
+                 referrerpolicy
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 type
+              </div>
+            </div>
+          </details>
+          <div id="104">
+            <div class="button">
+              <code>&lt;noscript&gt;</code>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row fifteenthgroup">
+          <p>Self-Closing Tag</p>
+          <details id="105">
+            <summary class="button">
+              <code>&lt;area/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute46">
+              <div class="button">
+                 alt
+              </div>
+              <div class="button">
+                 coords
+              </div>
+              <div class="button">
+                 download
+              </div>
+              <div class="button">
+                 href
+              </div>
+              <div class="button">
+                 hreflang
+              </div>
+              <div class="button">
+                 media
+              </div>
+              <div class="button">
+                 referrerpolicy
+              </div>
+              <div class="button">
+                 rel
+              </div>
+              <div class="button">
+                 shape
+              </div>
+              <div class="button">
+                 target
+              </div>
+              <div class="button">
+                 type
+              </div>
+            </div>
+          </details>
+          <details id="106">
+            <summary class="button">
+              <code>&lt;base/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute47">
+              <div class="button">
+                 href
+              </div>
+              <div class="button">
+                 target
+              </div>
+            </div>
+          </details>
+          <div id="107">
+            <div class="button">
+              <code>&lt;br/&gt;</code>
+            </div>
+          </div>
+          <div id="108">
+            <div class="button">
+              <code>&lt;hr/&gt;</code>
+            </div>
+          </div>
+          <details id="109">
+            <summary class="button">
+              <code>&lt;col/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute48">
+              <div class="button">
+                 span
+              </div>
+            </div>
+          </details>
+          <details id="110">
+            <summary class="button">
+              <code>&lt;embed/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute49">
+              <div class="button">
+                 height
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 type
+              </div>
+              <div class="button">
+                 width
+              </div>
+            </div>
+          </details>
+          <details id="111">
+            <summary class="button">
+              <code>&lt;img/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute50">
+              <div class="button">
+                 alt
+              </div>
+              <div class="button">
+                 crossorigin
+              </div>
+              <div class="button">
+                 height
+              </div>
+              <div class="button">
+                 ismap
+              </div>
+              <div class="button">
+                 loading
+              </div>
+              <div class="button">
+                 longdesc
+              </div>
+              <div class="button">
+                 referrerpolicy
+              </div>
+              <div class="button">
+                 sizes
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 srcset
+              </div>
+              <div class="button">
+                 usemap
+              </div>
+              <div class="button">
+                 width
+              </div>
+            </div>
+          </details>
+          <details id="112">
+            <summary class="button">
+              <code>&lt;input/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute51">
+              <div class="button">
+                 accept
+              </div>
+              <div class="button">
+                 alt
+              </div>
+              <div class="button">
+                 autocomplete
+              </div>
+              <div class="button">
+                 autofocus
+              </div>
+              <div class="button">
+                 checked
+              </div>
+              <div class="button">
+                 dirname
+              </div>
+              <div class="button">
+                 disabled
+              </div>
+              <div class="button">
+                 form
+              </div>
+              <div class="button">
+                 formaction
+              </div>
+              <div class="button">
+                 formenctype
+              </div>
+              <div class="button">
+                 formmethod
+              </div>
+              <div class="button">
+                 formnovalidate
+              </div>
+              <div class="button">
+                 formtarget
+              </div>
+              <div class="button">
+                 height
+              </div>
+              <div class="button">
+                 list
+              </div>
+              <div class="button">
+                 max
+              </div>
+              <div class="button">
+                 maxlength
+              </div>
+              <div class="button">
+                 min
+              </div>
+              <div class="button">
+                 minlength
+              </div>
+              <div class="button">
+                 multiple
+              </div>
+              <div class="button">
+                 name
+              </div>
+              <div class="button">
+                 pattern
+              </div>
+              <div class="button">
+                 placeholder
+              </div>
+              <div class="button">
+                 readonly
+              </div>
+              <div class="button">
+                 required
+              </div>
+              <div class="button">
+                 size
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 step
+              </div>
+              <div class="button">
+                 type
+              </div>
+              <div class="button">
+                 value
+              </div>
+              <div class="button">
+                 width
+              </div>
+            </div>
+          </details>
+          <details id="113">
+            <summary class="button">
+              <code>&lt;link/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute52">
+              <div class="button">
+                 crossorigin
+              </div>
+              <div class="button">
+                 href
+              </div>
+              <div class="button">
+                 hreflang
+              </div>
+              <div class="button">
+                 media
+              </div>
+              <div class="button">
+                 referrerpolicy
+              </div>
+              <div class="button">
+                 rel
+              </div>
+              <div class="button">
+                 sizes
+              </div>
+              <div class="button">
+                 title
+              </div>
+              <div class="button">
+                 type
+              </div>
+            </div>
+          </details>
+          <details id="114">
+            <summary class="button">
+              <code>&lt;meta/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute53">
+              <div class="button">
+                 charset
+              </div>
+              <div class="button">
+                 content
+              </div>
+              <div class="button">
+                 http_equiv
+              </div>
+              <div class="button">
+                 name
+              </div>
+            </div>
+          </details>
+          <details id="115">
+            <summary class="button">
+              <code>&lt;param/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute54">
+              <div class="button">
+                 name
+              </div>
+              <div class="button">
+                 value
+              </div>
+            </div>
+          </details>
+          <details id="116">
+            <summary class="button">
+              <code>&lt;source/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute55">
+              <div class="button">
+                 media
+              </div>
+              <div class="button">
+                 sizes
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 srcset
+              </div>
+              <div class="button">
+                 type
+              </div>
+            </div>
+          </details>
+          <details id="117">
+            <summary class="button">
+              <code>&lt;track/&gt;</code>
+            </summary>
+            <div class="dropdown" id="attribute56">
+              <div class="button">
+                 default
+              </div>
+              <div class="button">
+                 kind
+              </div>
+              <div class="button">
+                 label
+              </div>
+              <div class="button">
+                 src
+              </div>
+              <div class="button">
+                 srclang
+              </div>
+            </div>
+          </details>
+          <div id="118">
+            <div class="button">
+              <code>&lt;wbr/&gt;</code>
+            </div>
+          </div>
+      </div>
+    </main>
+    <footer>
+      <h5>Made with &#x1F49A; in Kurdistan</h5>
+    </footer>
+  </body>
+</html>
